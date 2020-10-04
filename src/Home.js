@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Api from './Api';
 import SearchBar from './SearchBar';
 import Filters from './Filters';
 import CardList from './CardList';
@@ -6,7 +7,7 @@ import './Home.css';
 
 function Home() {
     const [results, setResults] = useState();
-    const [term, setTerm] = useState("hurricane");
+    const [term, setTerm] = useState("hurricanes");
 
     const handleSearch = (e, searchTerm) => {
         e.preventDefault();
@@ -30,7 +31,7 @@ function Home() {
                     <p>land, sky, water, climate change, agriculture.</p>
                 </footer>
             </>
-                : <div className='row'>
+                : <div className='row results'>
                     <Filters />
                     <CardList />
                 </div>}

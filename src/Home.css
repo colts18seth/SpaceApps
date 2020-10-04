@@ -11,3 +11,8 @@ footer {
     font-size: 1.6rem;
     padding-top: 1rem
 }
+
+.results {
+    justify-content: space-around;
+    margin: 0;
+}

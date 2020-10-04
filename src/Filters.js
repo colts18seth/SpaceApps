@@ -7,65 +7,65 @@ function Filters() {
             <h3 className='pb-2'>Filter Results</h3>
             <form>
 
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="AccountRequired" />
-                    <label class="form-check-label" for="AccountRequired">
+                <div className="form-check">
+                    <input className="form-check-input" type="checkbox" value="" id="AccountRequired" />
+                    <label className="form-check-label" htmlFor="AccountRequired">
                         Account Required
                     </label>
                 </div>
 
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="open" />
-                    <label class="form-check-label" for="open">
+                <div className="form-check">
+                    <input className="form-check-input" type="checkbox" value="" id="open" />
+                    <label className="form-check-label" htmlFor="open">
                         Public / Open Source
                     </label>
                 </div>
 
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="category" />
-                    <label class="form-check-label" for="category">
+                <div className="form-check">
+                    <input className="form-check-input" type="checkbox" value="" id="category" />
+                    <label className="form-check-label" htmlFor="category">
                         Category (6)
                     </label>
 
                     <div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="category" id="air" value="air" />
-                            <label class="form-check-label" for="air">
+                        <div className="form-check">
+                            <input className="form-check-input" type="radio" name="category" id="air" value="air" />
+                            <label className="form-check-label" htmlFor="air">
                                 Air (2)
                             </label>
                         </div>
 
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="category" id="land" value="land" />
-                            <label class="form-check-label" for="land">
+                        <div className="form-check">
+                            <input className="form-check-input" type="radio" name="category" id="land" value="land" />
+                            <label className="form-check-label" htmlFor="land">
                                 Land
                             </label>
                         </div>
 
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="category" id="sky" value="sky" />
-                            <label class="form-check-label" for="sky">
+                        <div className="form-check">
+                            <input className="form-check-input" type="radio" name="category" id="sky" value="sky" />
+                            <label className="form-check-label" htmlFor="sky">
                                 Sky (4)
                             </label>
                         </div>
 
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="category" id="water" value="water" />
-                            <label class="form-check-label" for="water">
+                        <div className="form-check">
+                            <input className="form-check-input" type="radio" name="category" id="water" value="water" />
+                            <label className="form-check-label" htmlFor="water">
                                 Water (3)
                             </label>
                         </div>
 
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="category" id="climate" value="climate" />
-                            <label class="form-check-label" for="climate">
+                        <div className="form-check">
+                            <input className="form-check-input" type="radio" name="category" id="climate" value="climate" />
+                            <label className="form-check-label" htmlFor="climate">
                                 Climate Change (1)
                             </label>
                         </div>
 
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="category" id="agriculture" value="agriculture" />
-                            <label class="form-check-label" for="agriculture">
+                        <div className="form-check">
+                            <input className="form-check-input" type="radio" name="category" id="agriculture" value="agriculture" />
+                            <label className="form-check-label" htmlFor="agriculture">
                                 Agriculture
                             </label>
                         </div>
@@ -73,23 +73,23 @@ function Filters() {
                     </div>
                 </div>
 
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="type" />
-                    <label class="form-check-label" for="type">
+                <div className="form-check">
+                    <input className="form-check-input" type="checkbox" value="" id="type" />
+                    <label className="form-check-label" htmlFor="type">
                         Type
                     </label>
 
                     <div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="type" id="images" value="images" />
-                            <label class="form-check-label" for="images">
+                        <div className="form-check">
+                            <input className="form-check-input" type="radio" name="type" id="images" value="images" />
+                            <label className="form-check-label" htmlFor="images">
                                 Images
                             </label>
                         </div>
 
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="type" id="data" value="data" />
-                            <label class="form-check-label" for="data">
+                        <div className="form-check">
+                            <input className="form-check-input" type="radio" name="type" id="data" value="data" />
+                            <label className="form-check-label" htmlFor="data">
                                 Raw Data
                             </label>
                         </div>

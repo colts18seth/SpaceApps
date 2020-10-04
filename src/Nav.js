@@ -6,7 +6,7 @@ function Nav() {
     return (
         <div className="Nav container-fluid">
             <div className='row title'>
-                <div className='col-8'>
+                <div className='col-7'>
                     <h1>DATA DISCOVERY:</h1>
                     <p>Earth Science</p>
                 </div>
