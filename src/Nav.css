@@ -1,5 +1,5 @@
 .Nav {
-    background-image: url('./imgs/nightLights.png');
+    background-image: url('./imgs/pic.svg');
     background-size: cover;
     height: 380px;
     display: flex;
@@ -31,6 +31,11 @@ a {
     color: #E5DFDA;
     font-size: 1.4rem;
     margin-left: 1rem;
+}
+
+a:hover {
+    color: #E5DFDA;
+    text-decoration: none;
 }
 
 .active {

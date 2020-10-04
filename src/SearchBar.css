@@ -1,0 +1,10 @@
+.SearchBar input{
+    margin: 0 auto;
+    width: 50vw;
+    font-size: 1.5rem;
+}
+
+button {
+    font-size: 1.5rem;
+    background-color: #c4c4c4;
+}
