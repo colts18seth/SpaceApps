@@ -12,7 +12,8 @@ function Home() {
     const handleSearch = (e, searchTerm) => {
         e.preventDefault();
         setTerm(searchTerm);
-        //!  API Call for search term
+        const res = Api.getAllResources();
+        console.log(res)
     }
 
     return (
@@ -33,7 +34,7 @@ function Home() {
             </>
                 : <div className='row results'>
                     <Filters />
-                    <CardList />
+                    <CardList results={results} />
                 </div>}
         </div>
     );
