@@ -5,8 +5,10 @@ import './CardList.css';
 function CardList() {
     return (
         <div className="CardList col-8">
-            CardList
             {/* //! map over results */}
+            <Card />
+            <Card />
+            <Card />
             <Card />
         </div>
     );
