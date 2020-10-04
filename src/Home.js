@@ -7,7 +7,7 @@ import './Home.css';
 
 function Home() {
     const [results, setResults] = useState();
-    const [term, setTerm] = useState("hurricanes");
+    const [term, setTerm] = useState();
 
     const handleSearch = (e, searchTerm) => {
         e.preventDefault();
