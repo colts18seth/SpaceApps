@@ -18,8 +18,15 @@ function Home() {
 
     return (
         <div className="Home">
+            {!results &&
+                <div>
+                    <p>Citizen scientists: don't know where to begin?</p>
+                    <p>We're here to help.</p>
+                </div>}
 
-            <SearchBar handleSearch={handleSearch} />
+            {!results &&
+                <SearchBar handleSearch={handleSearch} />
+            }
 
             {!results ? <>
                 <footer>

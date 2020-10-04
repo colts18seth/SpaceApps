@@ -1,10 +1,4 @@
-.SearchBar input{
-    margin: 0 auto;
-    width: 50vw;
+.SearchBar{
+    margin-top: 2rem;
     font-size: 1.5rem;
-}
-
-.Search button {
-    font-size: 1.5rem;
-    background-color: #c4c4c4;
 }

@@ -4,14 +4,12 @@ import './SearchBar.css';
 function SearchBar({ handleSearch }) {
 
     return (
-        <div className="SearchBar">
-            <form>
-                <button
-                    onClick={handleSearch} type='submit'>
-                    Start Search
+        <form className="SearchBar">
+            <button
+                onClick={handleSearch} type='submit'>
+                Start Search
                 </button>
-            </form>
-        </div>
+        </form>
     );
 }
 
