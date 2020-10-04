@@ -7,25 +7,21 @@ import './Home.css';
 
 function Home() {
     const [results, setResults] = useState();
-    const [term, setTerm] = useState();
 
-    const handleSearch = (e, searchTerm) => {
+    const handleSearch = (e) => {
         e.preventDefault();
-        setTerm(searchTerm);
         const res = Api.getAllResources();
-        console.log(res)
+        res.then(res => {
+            setResults(res.data.resources);
+        })
     }
 
     return (
         <div className="Home">
-            {term ? <p className='termSearched'>{`Search Results for "${term}"`}</p> :
-                <>
-                    <p>Citizen scientists: don't know where to begin?</p>
-                    <p>We're here to help.</p>
-                </>}
+
             <SearchBar handleSearch={handleSearch} />
 
-            {!term ? <>
+            {!results ? <>
                 <footer>
                     <p>Search through hundreds of websites (not really) to get you on the right path of</p>
                     <p>discovering thousands of datapoints related to your field of interest:</p>
