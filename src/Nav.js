@@ -22,6 +22,9 @@ function Nav() {
                     <NavLink to='/sources'>
                         Sources
                     </NavLink>
+                    <NavLink to='/NewResourceForm'>
+                        Add Resource
+                    </NavLink>
                 </nav>
             </div>
         </div>

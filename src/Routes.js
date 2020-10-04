@@ -3,6 +3,7 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 import Sources from './Sources';
+import NewResourceForm from './NewResourceForm';
 
 function Routes() {
     return (
@@ -16,6 +17,9 @@ function Routes() {
                 </Route>
                 <Route exact path='/sources'>
                     <Sources />
+                </Route>
+                <Route exact path='/newResourceForm'>
+                    <NewResourceForm />
                 </Route>
                 <Redirect to='/' />
             </Switch>
